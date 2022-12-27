@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
 #logo-nav-div{
     width:100%;
     min-height: 50px;
@@ -12,26 +18,22 @@
     margin-bottom:10px;
 }
 
-#logo-div{
-    width:50%;
-    min-height:50px;
-    float:left;
-    line-height:50px;
-    padding-left:2%;
-}
+        #logo-div{
+            width:50%;
+            min-height:50px;
+            float:left;
+            line-height:50px;
+            padding-left:2%;
+        }
 
-#nav-div{
-    width:50%;
-    min-height:50px;
-    float:right;
-    line-height:50px;
-}
+        #nav-div{
+            width:50%;
+            min-height:50px;
+            float:right;
+            line-height:50px;
+        }
 
-.clearfix::after {
-    content:"";
-    display:block;
-    clear:both;
-}
+
 
 #header-banner-div{
     width:100%;
@@ -51,32 +53,69 @@
     margin-bottom: 10px;
 }
 
+
+
+#body-div{
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+
+        #left-body{
+            width: 20%;
+            min-height: 500px;
+            float:left;
+        }
+
+        #right-body{
+            width:70%;
+            min-height: 500px;
+            float: right;
+        }
+
+                #body-head-div{
+                    width: 100%;
+                    min-height: 150px;
+                    background-color: lightgray;
+                    margin-bottom: 50px;
+                    text-align: center;
+                    line-height: 150px;
+                }
+
+                #body-area-div{
+                    width: 100%;
+                    min-height: 300px;
+                    background-color: lightgray;
+                    text-align: center;
+                    line-height: 300px;
+                }
+
 #main-div{
     width: 100%;
     min-height: 400px;
     margin-bottom: 10px;
 }
 
-#main-div .box{
-    width:30%;
-    min-height: 400px;
-    background-color: lightgray;
-    float:left;
-    text-align: center;
-    line-height: 400px;
-}
-#main-div .box:nth-child(2){
-    margin-left: 5%;
-    margin-right: 5%;
-}
+        #main-div .box{
+            width:30%;
+            min-height: 400px;
+            background-color: lightgray;
+            float:left;
+            text-align: center;
+            line-height: 400px;
+        }
+                #main-div .box:nth-child(2){
+                    margin-left: 5%;
+                    margin-right: 5%;
+                }
 
-#footer-div{
-    width: 100%;
-    min-height: 50px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 50px;
-}
+                #footer-div{
+                    width: 100%;
+                    min-height: 50px;
+                    background-color: lightgray;
+                    text-align: center;
+                    line-height: 50px;
+                }
 
 #wrapper-div{
     width: 80%;

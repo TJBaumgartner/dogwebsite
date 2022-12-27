@@ -14,13 +14,20 @@
 #logo-div{
     width:50%;
     min-height:50px;
-    background-color:gray;
     float:left;
+    line-height:50px;
+    padding-left:2%;
 }
 
 #nav-div{
     width:50%;
     min-height:50px;
-    background-color:gray;
     float:right;
+    line-height:50px;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
 }

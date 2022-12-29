@@ -19,7 +19,7 @@
 }
 
         #logo-div{
-            width:50%;
+            width:20%;
             min-height:50px;
             float:left;
             line-height:50px;
@@ -27,7 +27,7 @@
         }
 
         #nav-div{
-            width:50%;
+            width:80%;
             min-height:50px;
             float:right;
             line-height:50px;

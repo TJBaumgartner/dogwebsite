@@ -27,7 +27,7 @@ a:active{text-decoration: none;}
 }
 
         #logo-div{
-            width:20%;
+            width:10%;
             min-height:50px;
             float:left;
             line-height:50px;
@@ -35,7 +35,7 @@ a:active{text-decoration: none;}
         }
 
         #nav-div{
-            width:80%;
+            width:90%;
             min-height:50px;
             float:right;
             line-height:50px;
@@ -44,8 +44,10 @@ a:active{text-decoration: none;}
         #logo-nav-div a{
             float:left;
             color: #dedede;
-            font-size: 30px;
+            font-size: 20px;
             padding:10px;
+            margin-left: 30px;
+            margin-right: 10px;
         }
 
         #logo-nav-div a:hover{
@@ -55,6 +57,13 @@ a:active{text-decoration: none;}
         #logo-nav-div a.active {
             background-color: #412c7a;
             color: #a8a7a7;
+        }
+
+        #logo-nav-div img{
+                height: auto;
+                width: 60%;
+                margin: 5px;
+                float:left;
         }
         
 

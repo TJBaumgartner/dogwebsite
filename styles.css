@@ -1,5 +1,4 @@
 *{
-    margin: 0px;
     padding: 0px;
     font-family:'Times New Roman', Times, serif;
     box-sizing: border-box;
@@ -41,7 +40,7 @@ a:active{text-decoration: none;}
     width:100%;
     min-height: 50px;
     background-color:#5f43b2;
-    margin-bottom:10px;
+    margin-bottom:5px;
     position: fixed;
     text-decoration: none;
     padding-top: 1px;
@@ -115,10 +114,9 @@ a:active{text-decoration: none;}
 
             #header-content-div{
                 width:60%;
-                min-height:250px;
+                min-height:500px;
                 float:right;
                 line-height: 50px;
-                text-align: justify;
                 text-align: center;
                 padding-top: 5%;
                 padding-right: 5%;
@@ -126,10 +124,9 @@ a:active{text-decoration: none;}
             }
             #banner-div{
                 width:40%;
-                min-height:250px;
+                min-height:500px;
                 float:left;
-                line-height: 10px;
-                text-align: justify;
+                line-height: 0px;
                 text-align: center;
                 padding-top: 50px;
                 overflow: hidden;
@@ -138,12 +135,14 @@ a:active{text-decoration: none;}
                 color: #CEF0D4;
                 font-family: 'Rouge Script', cursive; 
                 font-size: 110px; font-weight: normal; 
-                line-height: 100px; 
                 text-align: center; 
                 text-shadow: 1px 1px 2px #082b34; 
                 white-space: normal;
             }
-
+            #header-content-div p{
+                color: #8F00FF;
+                font-size: 20px;
+            }
 #intro-div{
     width:100%;
     min-height:80px;

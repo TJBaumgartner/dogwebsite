@@ -19,7 +19,7 @@ a:active{text-decoration: none;}
 
 #wrapper-div{
     width: 100%;
-    margin:auto;
+    margin: 0 auto;
     background-color: #675799;
 }
 
@@ -30,6 +30,15 @@ a:active{text-decoration: none;}
     display:block;
     clear:both;
 }
+
+
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+
 
 #logo-nav-div{
     width:100%;
@@ -327,10 +336,11 @@ a:active{text-decoration: none;}
                     display: flex;
                     flex-direction: column;
                     margin-right: 15%;
+                    font-size: 20px;
                 }
 
                 .footer-heading h2{
-                    margin-bottom:10px;
+                    margin-bottom:3px;
                 }
 
                 .footer-heading a{
@@ -350,6 +360,9 @@ a:active{text-decoration: none;}
                 }
                 .footer-3 a{
                     text-decoration: underline;
+                }
+                .footer-2 ul li{
+                    padding-bottom: 3px;
                 }
 .footer-legal{
     text-align: center;
@@ -377,6 +390,7 @@ a:active{text-decoration: none;}
 .footer-copyright a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .footer-copyright a:hover{
     color: grey;
@@ -392,10 +406,10 @@ a:active{text-decoration: none;}
 
 
 .fa{
-    padding:10px;
-    width:35px;
-    height:auto;
-    font-size:20px;
+    padding:15px;
+    width:50px;
+    height:50px;
+    font-size:30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;

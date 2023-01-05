@@ -268,6 +268,7 @@ html, body{
             text-align: center;
             line-height: 50px;
             color:white;
+            padding-bottom: 10px;
         }
 
                 #main-div .box:nth-child(2){
@@ -301,9 +302,40 @@ html, body{
         .btn-container a{
             color: inherit;
         }
+
+        .button{
+            background-color: grey;
+            border:none;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding-top: 2px;
+            padding-right: 150px;
+            padding-bottom: 2px;
+            padding-left: 150px;
+            text-transform: uppercase;
+            transition-duration: .035s;
+            cursor: pointer;
+            background-color: rgb(20, 20, 20);
+            color: white;
+            border: 2px solid #555555;
+        }
+        .button a{
+            color:white;
+        }
         
+        .button:hover {
+            background-color: #707070;
+            transition: 0.35s ease-in-out;
+        }
+
         #main-div h3 a{
             color:inherit;
+        }
+        #main-div h3 a:hover{
+            color:rgb(197, 197, 197);
+            transition: 0.35s ease-in-out;
         }
 
         #main-div h3{
@@ -311,9 +343,10 @@ html, body{
             color: white;
             text-align: center;
             font-weight: 700;
-            background-color: grey;
+            background-color: rgb(63, 62, 62);
             margin:auto;
             text-transform: uppercase;
+            margin-bottom: 5px;
         }
 
 .footer-container {
@@ -357,6 +390,9 @@ html, body{
                 .footer-3{
                     color:darkgray;
                     margin-right: 5px;
+                }
+                .footer-3 h2{
+                    color:white;
                 }
                 .footer-3 a{
                     text-decoration: underline;

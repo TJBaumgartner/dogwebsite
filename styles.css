@@ -199,11 +199,12 @@ a:active{text-decoration: none;}
             }
 #intro-div{
     width:100%;
-    min-height:80px;
-    background-color: lightgray;
+    min-height:300px;
     text-align: center;
-    line-height: 80px;
+    line-height: 300px;
     margin-bottom: 10px;
+    color:white;
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Purple-Flower-Website-Background.jpg);
 }
 
 
@@ -247,7 +248,7 @@ a:active{text-decoration: none;}
     width: 100%;
     min-height: 250px;
     margin-bottom: 10px;
-    display:block;
+    display:flex;
     font-size: 30px;
 }
 
@@ -271,7 +272,6 @@ a:active{text-decoration: none;}
             text-align: center;
             font-weight: 700;
         }
-
         #main-div img{
             max-width: 80%;
             height:auto;
@@ -307,21 +307,133 @@ a:active{text-decoration: none;}
             text-transform: uppercase;
         }
 
+.footer-container {
+    background-color:#212329;
+    padding-bottom: 30px;
+}
+        .footer{
+            width: 80%;
+            height: 300px;
+            background-color:#212329;
+            color:white;
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
 
-#footer-div{
-    width: 100%;
-    min-height: 50px;
-    background-color: lightgray;
+                .footer-heading{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 15%;
+                }
+
+                .footer-heading h2{
+                    margin-bottom:10px;
+                }
+
+                .footer-heading a{
+                    color:white;
+                    text-decoration: none;
+                    margin-bottom: 10px;
+                }
+                
+                .footer-heading a:hover{
+                    color:grey;
+                    transition: 0.2s ease-out;
+                }
+
+                .footer-3{
+                    color:darkgray;
+                    margin-right: 5px;
+                }
+                .footer-3 a{
+                    text-decoration: underline;
+                }
+.footer-legal{
     text-align: center;
-    line-height: 50px;
- }
+    display: block;
+}
+.footer-logo{
+    border-bottom: 2px solid grey;
+}
+.footer-logo img{
+    width:100px;
+    height:auto;
+    text-align: center;
+}
+.footer-logo p{
+    color:white;
+}
+.footer-copyright{
+    color: white;
+    text-decoration: none;
+}
+.footer-copyright ul li{
+    display: inline;
+    margin-right: 10px; 
+}
+.footer-copyright a{
+    text-decoration: none;
+    color: white;
+}
+.footer-copyright a:hover{
+    color: grey;
+    transition: 0.2s ease-in-out;
+}
+.footer-copyright .horizontal{
+    border-left: 2px solid grey;
+    padding-left: 5px;
+}
+
+
+
+
+
+.fa{
+    padding:10px;
+    width:35px;
+    height:auto;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
   @media screen and (max-width: 600px){
-    #nav-div:not(:first-child){
+    #nav-div a{
         display:none;
     }
 }

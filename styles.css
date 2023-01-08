@@ -39,7 +39,7 @@ html, body{
 }
 
 
-
+ /*Navigation Bar */
 #logo-nav-div{
     width:100%;
     min-height: 50px;
@@ -166,6 +166,8 @@ html, body{
     opacity: 0;
   }
 
+
+ /* Header/banner */
 #header-banner-div{
     width:100%;
     min-height:600px;
@@ -218,6 +220,9 @@ html, body{
                 font-size: 30px;
                 font-weight: 600;
             }
+
+
+ /* Intro Area */
 #intro-div{
     width:100%;
     min-height:300px;
@@ -233,7 +238,7 @@ html, body{
 }
 
 
-
+ /* Side nav + Body*/
 #body-div{
     width: 100%;
     min-height: 500px;
@@ -269,6 +274,8 @@ html, body{
                     line-height: 300px;
                 }
 
+
+ /* 3 Boxes */
 #main-div{
     width: 100%;
     min-height: 250px;
@@ -319,51 +326,6 @@ html, body{
             color: inherit;
         }
 
-        .button{
-            border:none;
-            color:white;
-            text-align: center;
-            text-decoration: none;
-            font-size: 30px;
-            padding-top: 2px;
-            padding-right: 150px;
-            padding-bottom: 2px;
-            padding-left: 150px;
-            text-transform: uppercase;
-            transition-duration: .035s;
-            cursor: pointer;
-            background-color: rgb(20, 20, 20);
-            color: white;
-            border: 2px solid #555555;
-            border-radius: 10px;
-        }
-        
-        .button a{
-            color:white;
-        }
-        
-        .button:hover {
-            background-color: #707070;
-            transition: 0.35s ease-in-out;
-        }
-        .bannerbutton{
-            border:none;
-            color:white;
-            text-align: center;
-            text-decoration: none;
-            font-size: 30px;
-            padding-top: 2px;
-            padding-right: 150px;
-            padding-bottom: 2px;
-            padding-left: 150px;
-            text-transform: uppercase;
-            transition-duration: .035s;
-            cursor: pointer;
-            background-color: black;
-            color: white;
-            border: 1px solid lightgrey;
-            border-radius: 0px;
-        }
         #main-div h3 a{
             color:inherit;
         }
@@ -383,6 +345,8 @@ html, body{
             margin-bottom: 5px;
         }
 
+
+ /* Footer */
 .footer-container {
     background-color:#212329;
     padding-bottom: 30px;
@@ -472,9 +436,56 @@ html, body{
 }
 
 
+ /* Buttons */
+.button{
+            border:none;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding-top: 2px;
+            padding-right: 150px;
+            padding-bottom: 2px;
+            padding-left: 150px;
+            text-transform: uppercase;
+            transition-duration: .035s;
+            cursor: pointer;
+            background-color: rgb(20, 20, 20);
+            color: white;
+            border: 2px solid #555555;
+            border-radius: 10px;
+        }
+        
+        .button a{
+            color:white;
+        }
+        
+        .button:hover {
+            background-color: #707070;
+            transition: 0.35s ease-in-out;
+        }
+        .bannerbutton{
+            border:none;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding-top: 2px;
+            padding-right: 150px;
+            padding-bottom: 2px;
+            padding-left: 150px;
+            text-transform: uppercase;
+            transition-duration: .035s;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 1px solid lightgrey;
+            border-radius: 0px;
+        }
 
 
 
+  /* Social Icons */
 .fa{
     padding:15px;
     width:50px;

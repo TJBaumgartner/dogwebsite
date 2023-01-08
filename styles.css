@@ -20,7 +20,7 @@ a:active{text-decoration: none;}
 #wrapper-div{
     width: 100%;
     margin: 0 auto;
-    background-color: #675799;
+    background-color: #3d2b72;
 }
 
 
@@ -48,6 +48,7 @@ html, body{
     position: fixed;
     padding-top: 1px;
     text-transform: uppercase;
+    border-bottom: 2px solid grey;
 }
 
         #logo-div{
@@ -78,8 +79,8 @@ html, body{
         }
         
         #logo-nav-div a.active {
-            background-color: #412c7a;
-            color: #a8a7a7;
+            background-color: rgb(194, 132, 18);
+            color: white;
         }
 
         #logo-nav-div img{
@@ -167,53 +168,68 @@ html, body{
 
 #header-banner-div{
     width:100%;
-    min-height:500px;
+    min-height:600px;
     background-color: lightgray;
     margin-bottom: 10px;
-    background-image: url(https://www.shutterstock.com/image-photo/female-groomer-brushing-miniature-white-260nw-1207239625.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
             #header-content-div{
-                width:60%;
-                min-height:500px;
+                width:50%;
+                min-height:600px;
                 float:right;
                 line-height: 50px;
                 text-align: center;
                 padding-top: 5%;
                 padding-right: 5%;
                 overflow: hidden;
+                background-color: rgb(179, 118, 5);
             }
             #banner-div{
-                width:40%;
-                min-height:500px;
+                width:50%;
+                min-height:600px;
                 float:left;
                 line-height: 0px;
                 text-align: center;
                 padding-top: 50px;
                 overflow: hidden;
+                background-image: url(https://www.shutterstock.com/image-photo/female-groomer-brushing-miniature-white-260nw-1207239625.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
             }
             #banner-div h1{
-                color: #CEF0D4;
-                font-family: 'Rouge Script', cursive; 
+                color: #1d1d1d;
+                font-family: 'Rouge Script'; 
                 font-size: 110px; font-weight: normal; 
-                text-align: center; 
+                text-align: left; 
                 text-shadow: 1px 1px 2px #082b34; 
                 white-space: normal;
+                padding-left: 200px;
+                padding-bottom:20px;
+                padding-top:10px;
+            }
+            #banner-div h2{
+                color:#1d1d1d;
+                font-size: 30px;
+                position:relative;
+                left:50px;
             }
             #header-content-div p{
-                color: #8F00FF;
-                font-size: 20px;
+                color: black;
+                font-size: 30px;
+                font-weight: 600;
             }
 #intro-div{
     width:100%;
     min-height:300px;
-    text-align: center;
-    line-height: 300px;
+    text-align: left;
     margin-bottom: 10px;
-    color:white;
-    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Purple-Flower-Website-Background.jpg);
+    color:black;
+    background-color: #5f43b2;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight:900;
 }
 
 
@@ -304,7 +320,6 @@ html, body{
         }
 
         .button{
-            background-color: grey;
             border:none;
             color:white;
             text-align: center;
@@ -320,7 +335,9 @@ html, body{
             background-color: rgb(20, 20, 20);
             color: white;
             border: 2px solid #555555;
+            border-radius: 10px;
         }
+        
         .button a{
             color:white;
         }
@@ -329,7 +346,24 @@ html, body{
             background-color: #707070;
             transition: 0.35s ease-in-out;
         }
-
+        .bannerbutton{
+            border:none;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            padding-top: 2px;
+            padding-right: 150px;
+            padding-bottom: 2px;
+            padding-left: 150px;
+            text-transform: uppercase;
+            transition-duration: .035s;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 1px solid lightgrey;
+            border-radius: 0px;
+        }
         #main-div h3 a{
             color:inherit;
         }
@@ -456,7 +490,7 @@ html, body{
     color: white;
 }
 .fa-instagram {
-    background: #125688;
+    background: #83064f;
     color: white;
 }
 .fa-twitter {

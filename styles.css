@@ -224,11 +224,12 @@ html, body{
     text-align: left;
     margin-bottom: 10px;
     color:black;
-    background-color: #5f43b2;
+    background-color: #7e67c2;
     padding-top: 100px;
     padding-left: 20%;
     padding-right: 20%;
     font-size: 20px;
+    border-bottom: 2px solid black;
 }
 #intro-div h1{
     text-align: center;
@@ -238,7 +239,7 @@ html, body{
 #intro-div p{
     text-align: left;
     padding-bottom:10px;
-    color:rgb(201, 197, 197);
+    color:rgb(255, 255, 255);
 }
 #intro-div img{
     width: 100%;
@@ -286,7 +287,8 @@ html, body{
 #main-div{
     width: 100%;
     min-height: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     display:flex;
     font-size: 30px;
 }
@@ -554,10 +556,39 @@ html, body{
     color: white;
 }
 
-
-
-
-
+.open-hours{
+    min-height: 500px;
+    background-color: #7e67c2;
+    padding-top: 50px;
+    text-align: center;
+}
+.open-hours h1{
+    text-align: center;
+    color:#1d1d1d;
+    font-size: 60px;
+}
+.open-hours p{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.days-open :hover{
+    border-color: rgb(155, 102, 4);
+    transition: .2s ease-in-out;
+}
+.days-open li{
+    display: inline-block;
+    margin-left: 30px;
+    border: 3px solid black;
+    width: 10%;
+    justify-content: space-around;
+    color: rgb(223, 222, 222);
+    background-color: #3d2b72;
+}
+.days-open p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 
 
 

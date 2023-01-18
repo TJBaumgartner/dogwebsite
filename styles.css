@@ -169,12 +169,7 @@ html, body{
     visibility: hidden;
     opacity: 0;
   }
-.menu-icon{
-    width: 35px;
-    height:5px;
-    background: black;
-    margin: 6px 0;
-}
+
 
  /* Header/banner */
 #header-banner-div{
@@ -602,18 +597,72 @@ html, body{
 
 
 
+/*ABOUT PAGE STYLING*/
+/*ABOUT PAGE STYLING*/
+/*ABOUT PAGE STYLING*/
+.about-space{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrCT-0ywXpHwRvFoxl01RUl9G82ySayupCJw&usqp=CAU);
+    background-repeat: none;
+    border-bottom: 2px solid black;
+}
+.about-head{
+    min-height: 150px;    
+    border-bottom: 2px solid black;
+}
+.about-head h1{
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+}
+.about-us{
+    width:100%;
+    min-height:1000px;
+    margin-bottom: 10px;
+    color:black;
+    background-color: #7e67c2;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
 
-
-
-
-
-
+.about-us p{
+    text-align: left;
+    padding-bottom:10px;
+    color:rgb(255, 255, 255);
+}
+.about-left{
+    width:50%;
+    min-height:1000px;
+    float:left;
+    text-align: center;
+    overflow: hidden;
+    padding-right: 30px;
+    border-right: 2px solid grey;
+}
+.about-right{
+    width:50%;
+    min-height:1000px;
+    float:right;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.about-us img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
 
 
 
 
   @media screen and (max-width: 600px){
-    #nav-div a{
+    #nav-div a:not(:last-child){
         display:none;
     }
 }

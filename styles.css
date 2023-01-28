@@ -1,4 +1,5 @@
 *{
+    margin-top: 0px;
     padding: 0px;
     font-family:'Times New Roman', Times, serif;
     box-sizing: border-box;
@@ -60,6 +61,7 @@ html, body{
     display: flex;
     flex-direction: row;
     padding-top: 5px;
+    margin-top: 15px;
 }
 .navbar a{
     color: #dedede;
@@ -67,6 +69,11 @@ html, body{
     text-align: center;
     padding-left: 40px;
 }
+/* Padding next to service dropdown*/
+.navbar .pad{
+    padding-left:25px;
+}
+/* Padding next to service dropdown*/
 .navbar li{
     color: white;
 }
@@ -110,7 +117,8 @@ html, body{
 .dropdown:hover .dropdown-content {
     display: block;
     left: 230px;
-    top: 48px;
+    top: 45px;
+    z-index: 100;
 }
 .navbar a.active{
     color: rgb(252, 165, 5);
@@ -135,6 +143,7 @@ html, body{
                 padding-top: 60px;
                 padding-left: 8%;
                 padding-right:8%;
+                border-bottom: 2px solid black;
             }
             #banner-div{
                 width:50%;
@@ -146,6 +155,7 @@ html, body{
                 background-image: url(https://woofbarkgrowl.co.uk/wp-content/uploads/2020/11/Dog-getting-a-trim.jpg);
                 background-repeat: no-repeat;
                 background-size:cover;
+                border-bottom: 2px solid black;
             }
             #header-content-div h1{
                 color: #1d1d1d;
@@ -154,16 +164,19 @@ html, body{
                 text-shadow: 1px 1px 2px #082b34; 
                 white-space: normal;
                 margin-bottom: 20px;
-                margin-top:0px;
+                margin-top:40px;
             }
             #header-content-div h2{
                 color:#1d1d1d;
                 font-size: 30px;
+                margin-top: 20px;
             }
             #header-content-div p{
                 color: white;
                 font-size: 24px;
-                font-weight: 400;
+                font-weight: 500;
+                margin-top: 30px;
+                margin-bottom: 60px;
             }
 
 
@@ -190,6 +203,7 @@ html, body{
     text-align: left;
     padding-bottom:10px;
     color:rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
 #intro-div img{
     width: 100%;
@@ -237,8 +251,8 @@ html, body{
 #main-div{
     width: 100%;
     min-height: 250px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     display:flex;
     font-size: 30px;
 }
@@ -311,12 +325,12 @@ html, body{
     padding-bottom: 30px;
 }
         .footer{
-            width: 80%;
+            width: 60%;
             height: 300px;
             background-color:#212329;
             color:white;
             display:flex;
-            justify-content: center;
+            justify-content: space-around;
             flex-wrap: wrap;
             margin: 0 auto;
             padding-top: 30px;
@@ -330,7 +344,7 @@ html, body{
                 }
 
                 .footer-heading h2{
-                    margin-bottom:3px;
+                    margin-bottom:10px;
                 }
 
                 .footer-heading a{
@@ -370,6 +384,7 @@ html, body{
     text-align: center;
 }
 .footer-logo p{
+    margin-top: 10px;
     color:white;
 }
 .footer-copyright{
@@ -516,12 +531,23 @@ html, body{
     background: #55ACEE;
     color: white;
 }
+.dropdown .fa{
+    padding:0px;
+    width:13px;
+    height:auto;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    margin:0px;
+}
 
 .open-hours{
     min-height: 500px;
     background-color: #7e67c2;
     padding-top: 50px;
     text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 .open-hours h1{
     text-align: center;
@@ -530,8 +556,9 @@ html, body{
 }
 .open-hours p{
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
+    font-weight: 600;
 }
 .days-open :hover{
     border-color: rgb(155, 102, 4);
@@ -549,6 +576,9 @@ html, body{
 .days-open p{
     margin-bottom: 20px;
     font-size: 20px;
+}
+.days-open h2{
+    margin-top: 20px;
 }
 
 
@@ -570,6 +600,7 @@ html, body{
     border-bottom: 2px solid black;
 }
 .about-head h1{
+    margin-top: 25px;
     text-align: center;
     color:white;
     padding-top: 15px;
@@ -578,10 +609,9 @@ html, body{
 .about-us{
     width:100%;
     min-height:1000px;
-    margin-bottom: 10px;
     color:black;
     background-color: #7e67c2;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 15%;
     padding-right: 15%;
     font-size: 20px;
@@ -620,6 +650,61 @@ html, body{
 
 
 
+/*SERVICE PAGE STYLING*/
+/*SERVICE PAGE STYLING*/
+/*SERVICE PAGE STYLING*/
+.service-head{
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #7e67c2;
+    border-bottom: 2px solid black;
+}
+.service-head h1{
+    padding-top: 100px;
+    color:#1d1d1d;
+    font-size: 60px;
+}
+.service-body{
+    min-height: 1200px;
+    width: 100%;
+    background-color: #3d2b72;
+    justify-content: center;
+    padding-left:20%;
+    padding-right: 20%;
+}
+.service-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.service-content a:hover{
+
+}
+.service-content p{
+    color:white;
+    font-size: 20px;
+}
+.service-content h1{
+    color: white;
+    padding-top: 30px;
+}
+.service-reviews{
+
+}
+#border-bottom{
+    border-bottom: 2px solid rgb(155, 102, 4);
+    width: 80%;
+    margin-left: 7%;
+    height: 20px;
+}
+
+
+
+/*MEDIA QUERYS*/
+/*MEDIA QUERYS*/
+/*MEDIA QUERYS*/
   @media screen and (max-width: 600px){
     .navbar li:not(:last-child){
         display:none;

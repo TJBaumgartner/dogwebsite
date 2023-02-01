@@ -496,6 +496,36 @@ html, body{
         background-color: #3d2b72;
         transition: 0.35s ease-in-out;
     }
+    /*Button for Intro*/
+    .servicebutton{
+        width: 30%;
+        border:none;
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        transition-duration: .035s;
+        cursor: pointer;
+        background-color: rgb(155, 102, 4);
+        color: white;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .servicebutton a{
+        text-decoration: none;
+        color: white;
+    }
+    .servicebutton:hover{
+        background-color: #3d2b72;
+        transition: 0.35s ease-in-out;
+    }
+    .servicebutton-container{
+        display: flex;
+        justify-content: space-around;
+    }
     .dropbtn{
         color:white;
         text-decoration: none;
@@ -672,7 +702,10 @@ html, body{
     justify-content: center;
     padding-left:20%;
     padding-right: 20%;
+    padding-top: 20px;
     border-bottom: 2px solid black;
+
+    /*BACKGROUND DOG IMAGES*/
     background-image: url(https://www.shutterstock.com/image-photo/happy-puppy-dog-smiling-on-260nw-1799966587.jpg), 
     url(https://thumbs.dreamstime.com/b/hungry-funny-puppy-dog-licking-its-nose-tongue-out-winking-one-eye-closed-isolated-blue-colored-background-194804423.jpg);
     background-repeat: no-repeat;
@@ -699,7 +732,32 @@ html, body{
     padding-top: 30px;
 }
 .service-reviews{
-
+    min-height: 600px;
+    width: 100%;
+    background-color: #7e67c2;
+    justify-content: center;
+    padding-left:10%;
+    padding-right: 10%;
+    border-bottom: 2px solid black;
+}
+.service-reviews h1{
+    padding-top: 30px;
+    color:#1d1d1d;
+    font-size: 60px;
+    text-align: center;
+}
+.service-reviews ul{
+    display: flex;
+    justify-content: space-around;
+}
+.service-reviews li{
+    font-size: 20px;
+    color: white;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 35px;
+    background-color: #3d2b72;
+    border: 2px solid black;
 }
 #border-bottom{
     border-bottom: 2px solid rgb(155, 102, 4);

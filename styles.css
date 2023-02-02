@@ -707,10 +707,11 @@ html, body{
 
     /*BACKGROUND DOG IMAGES*/
     background-image: url(https://www.shutterstock.com/image-photo/happy-puppy-dog-smiling-on-260nw-1799966587.jpg), 
+    url(https://thumbs.dreamstime.com/b/hungry-funny-puppy-dog-licking-its-nose-tongue-out-winking-one-eye-closed-isolated-blue-colored-background-194804423.jpg),
     url(https://thumbs.dreamstime.com/b/hungry-funny-puppy-dog-licking-its-nose-tongue-out-winking-one-eye-closed-isolated-blue-colored-background-194804423.jpg);
     background-repeat: no-repeat;
-    background-size: auto 150px, auto 150px;
-    background-position: 2% 40%, 95% 10%;
+    background-size: auto 150px, auto 150px, auto 150px;
+    background-position: 2% 40%, 95% 10%, 95% 75%;
 
 }
 .service-content a{

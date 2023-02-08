@@ -687,18 +687,18 @@ html, body{
     min-height: 200px;
     width: 100%;
     text-align: center;
-    background-color: #7e67c2;
+    background-color: #3d2b72;
     border-bottom: 2px solid black;
 }
 .service-head h1{
     padding-top: 100px;
-    color:#1d1d1d;
+    color:white;
     font-size: 60px;
 }
 .service-body{
     min-height: 1000px;
     width: 100%;
-    background-color: #3d2b72;
+    background-color: #7e67c2;
     justify-content: center;
     padding-left:20%;
     padding-right: 20%;
@@ -721,7 +721,7 @@ html, body{
     justify-content: center;
 }
 .service-content a:hover{
-    color: rgb(155, 102, 4);
+    color: #555555;
     transition: 0.30s ease-in-out;
 }
 .service-content p{
@@ -729,13 +729,13 @@ html, body{
     font-size: 20px;
 }
 .service-content h1{
-    color: rgb(201, 132, 5);
+    color: rgb(252, 165, 5);
     padding-top: 30px;
 }
 .service-reviews{
     min-height: 600px;
     width: 100%;
-    background-color: #7e67c2;
+    background-color: #3d2b72;
     justify-content: center;
     padding-left:10%;
     padding-right: 10%;
@@ -743,7 +743,7 @@ html, body{
 }
 .service-reviews h1{
     padding-top: 30px;
-    color:#1d1d1d;
+    color:white;
     font-size: 60px;
     text-align: center;
 }
@@ -757,7 +757,7 @@ html, body{
     margin: 50px;
     margin-top: 20px;
     padding: 35px;
-    background-color: #3d2b72;
+    background-color: #7e67c2;
     border: 2px solid black;
 }
 #border-bottom{
@@ -776,18 +776,21 @@ html, body{
 .contact-header{
     width: 100%;
     height: 200px;
-    background-color: #7e67c2;
-    color: #1d1d1d;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 75px;
     border-bottom: 2px solid black;
 }
-.contact-container{
+.contact-header h1{
     padding-top: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.contact-container{
+    padding-top: 50px;
     padding-left: 50px;
     width: 100%;
-    height: 900px;
+    height: 900px;   
+    background-color: #7e67c2;
+    border-bottom: 2px solid black;
 }
 .contact-map{
     width: 50%;
@@ -800,37 +803,38 @@ html, body{
     float: right;
 }
 .contact-map h1{
-    color: rgb(187, 187, 187);
-    font-size: 30px;
+    color: #1d1d1d;
+    font-size: 40px;
 }
 .contact-map p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 .contact-details h1{
-    color: rgb(187, 187, 187);
+    color: #1d1d1d;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 .contact-details h2{
-    color: rgb(187, 187, 187);
+    color:rgb(51, 51, 51);
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
     padding-left: 50px;
 }
 .contact-details ul{
     color: white;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 50px;
 }
 .contact-details p{
     color: white;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 50px;
@@ -847,7 +851,21 @@ html, body{
     color: #555555;
     transition: 0.30s ease-in-out;
 }
-
+.contact-cancel{
+    border-bottom: 2px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.contact-cancel h2{
+    color: white;
+    font-size: 30px;
+}
+.contact-cancel p{
+    color: white;
+    font-size: 20px;
+}
 /*MEDIA QUERYS*/
 /*MEDIA QUERYS*/
 /*MEDIA QUERYS*/

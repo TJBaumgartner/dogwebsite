@@ -570,7 +570,15 @@ html, body{
     text-decoration: none;
     margin:0px;
 }
-
+.fa-phone{
+    padding:0px;
+    width:13px;
+    height:auto;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:5px;
+}
 .open-hours{
     min-height: 500px;
     background-color: #7e67c2;

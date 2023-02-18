@@ -874,6 +874,52 @@ html, body{
     color: white;
     font-size: 20px;
 }
+
+
+
+/** FAQ PAGE STYLING **/
+/** FAQ PAGE STYLING **/
+/** FAQ PAGE STYLING **/
+/** FAQ PAGE STYLING **/
+
+
+.faq-header{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid black;
+}
+.faq-header h1{
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.faq-body-container{
+    padding-top: 50px;
+    width: 100%;
+    height: 900px;   
+    background-color: #7e67c2;
+    border-bottom: 2px solid black;
+}
+.faq-body{
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 1200px;   
+    background-color: #7e67c2;
+    border-bottom: 2px solid black;
+}
+.faq-body h2{
+    color: white;
+    font-size: 40px;
+}
+.faq-body p{
+    color: rgb(182, 178, 171);
+    font-size: 20px;
+}
+
+
 /*MEDIA QUERYS*/
 /*MEDIA QUERYS*/
 /*MEDIA QUERYS*/
